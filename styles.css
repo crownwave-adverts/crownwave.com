@@ -1,0 +1,180 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 5vw;
+    color: gold;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-info h2, .contact-info p {
+    margin: 5px;
+    font-size: 4vw;
+}
+
+.container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu .signup-btn {
+    padding: 10px 20px;
+    background-color: gold;
+    color: black;
+    text-decoration: wavy;
+    font-weight: bold;
+    font-size: 4vw;
+   position: inherit;
+    
+}
+
+.viewport {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-text {
+    max-width: 100%;
+    max-height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0%;
+    border-radius: 10px;
+
+}
+
+.image-text img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+section h1 {
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+section h2 {
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+section h3 {
+    font-size: 4.5vw;
+    font-weight: bold;
+}
+
+section h4 {
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+section h5 {
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+section h6 {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+section p, section ul, section ol {
+    font-size: 3vw;
+    line-height: 1.5em;
+}
+
+ul, ol {
+    text-align: left;
+}
+
+.highlight {
+    color: rgb(174, 0, 255);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 4vw;
+}
+
+/* Media Queries for different screen sizes */
+@media (min-width: 600px) {
+    .title {
+        font-size: 3vw;
+    }
+
+    .contact-info h2, .contact-info p, .menu .signup-btn {
+        font-size: 2vw;
+    }
+
+    section h1 {
+        font-size: 4vw;
+    }
+
+    section h2 {
+        font-size: 3.5vw;
+    }
+
+    section h3 {
+        font-size: 3vw;
+    }
+
+    section h4 {
+        font-size: 2.5vw;
+    }
+
+    section h5 {
+        font-size: 2vw;
+    }
+
+    section h6 {
+        font-size: 1.5vw;
+    }
+
+    section p, section ul, section ol, footer {
+        font-size: 2vw;
+    }
+}
